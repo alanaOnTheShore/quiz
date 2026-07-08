@@ -10,4 +10,4 @@
   <li>Administração de banco de dados relacional;</li>
   <li>Versionamento de código com o GitHub Desktop.</li>
 </ul>
-<a href="https://alanaontheshore.github.io/quiz/">Clique para ir ao Quiz!</a>
+<a target="_blank" href="https://alanaontheshore.github.io/quiz/">Clique para ir ao Quiz!</a>
