@@ -17,12 +17,13 @@
 <body>
     <header class="cabecalho">
         <h1 >HORA DO QUIZ</h1>
-    </header>    
+    </header>
+    <!--INÍCIO-->    
     <section class="container" id="inicial">
         <div class="card">
-            <label for="inputNome" class="input">Para começar, digite seu nome</label>
+            <label for="jogador" class="texto-simples">Para começar, digite seu nome</label>
             <div class="subsessao-card">
-                <input type="text" id="inputNome">
+                <input type="text" id="jogador">
                 <span>
                     Será usado para ranking.
                 </span>
@@ -30,23 +31,35 @@
             <button type="button" id="btn-comecar" class="botao">Começar</button>
         </div>
     </section>
+    <!--JOGO-->
     <section id="jogo" class="container hidden">
         <div class="card">
-            <h3 id="texto-perginta">Aqui ficarão as perguntas! 
-                Vamos deixar o texto maior para simular o 
-                comportamento em uma pergunta com mais linhas.</h3>
+            <h3 id="texto-pergunta">Aqui ficarão as perguntas!</h3>
             <div id="alternativas" class="alternativas">
-                <button type="button" class="botao-alternativas">Alternativa A</button>
-                <button type="button" class="botao-alternativas">Alternativa B</button>
-                <button type="button" class="botao-alternativas">Alternativa C</button>
-                <button type="button" class="botao-alternativas">Alternativa D</button>
             </div>
-    </div>
+        </div>
     </section>
+    <!--PONTUAÇÃO-->
+    <section id="placar" class="container hidden">
+        <div class="card">
+            <h2>PLACAR</h2>
+            <table class="tabela-placar">
+                <thead>
+                    <tr>
+                        <th>Usuário</th>
+                        <th>Pontos</th>
+                    </tr>
+                </thead>
+                <tbody id="corpo-ranking">
 
+                </tbody>
+            </table>
+            <button type="button" id="btn-reiniciar" class="botao">Jogar Novamente</button>
+        </div>
+    </section>
     <!--FOOTER-->
     <footer class="footer">
-        <p>© 2026 Alana Paola Silva Nascimento</p>
+        <p>© 2026 alanaOnTheShore</p>
     </footer>
     <script src="script.js"></script>
 </body>
