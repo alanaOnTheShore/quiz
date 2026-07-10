@@ -73,7 +73,7 @@ h1 {
 }
 
 /* CAMPO PREENCHER NOME */
-#jogador {
+#input-nome {
     font-family: "Andika", sans-serif;
     border-radius: 4px;
     font-size: 20px;
