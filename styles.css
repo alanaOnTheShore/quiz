@@ -1,5 +1,6 @@
 :root {
     --branco: #ffff;
+    --preto: #000;
     --bege: #faead6;
     --cinza: #4e4646;
     --lilas:#B488E6;
@@ -30,7 +31,7 @@ h1 {
     font-family: "Londrina Solid", sans-serif;
     font-size: clamp(2.5em, 8vw, 4em);
     color: var(--branco);
-    text-shadow: 3px 3px 0px #000;
+    text-shadow: 3px 3px 0px var(--preto);
 }
 
 /* CONTAINER E CARD */
@@ -136,19 +137,18 @@ span {
     border: 2px solid  var(--roxo);    
 }
 
-/* FOOTER */
-.footer {
-  text-align: center;
-  padding: 50px;
-  color: var(--roxo);
-}
-
 /* CLASSE PARA ESCONDER O CARD */
 .hidden {
     display: none !important;
 }
 
 /* TABELA DE PLACAR */
+h2{
+    font-family: "Londrina Solid", sans-serif;
+    text-align: center;
+    font-size: clamp(2em, 5vw, 3em);    
+    text-shadow: 3px 3px 0px var(--branco);
+}
 .tabela-placar {
     width: 90%;
     margin: 20px 0;
@@ -163,6 +163,13 @@ span {
 }
 .tabela-placar tbody tr {
     border-bottom: 1px solid var(--branco);
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 50px;
+  color: var(--roxo);
 }
 
 /* --- MEDIA QUERIES --- */
