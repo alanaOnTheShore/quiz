@@ -13,5 +13,5 @@
 <a target="_blank" href="https://alanaontheshore.github.io/quiz/">Clique para ir ao Quiz!</a>
 <div align="center">
   <h3>Modelo do Banco de Dados Relacional</h3>
-  <img src="img/MER.png" alt="Diagrama do Banco de Dados" width="100%">
+  <img src="img/MER.jpeg" alt="Diagrama do Banco de Dados" width="100%">
 </div>
