@@ -11,6 +11,7 @@ const textoPergunta = document.getElementById('texto-pergunta');
 const alternativas = document.getElementById('alternativas');
 const corpoRanking = document.getElementById('corpo-ranking');
 
+//-------------------------------------------------------------
 //--- SIMULAÇÃO DE PERGUNTAS DO BANCO DE DADOS ---
 const perguntas = [
     {
@@ -34,6 +35,7 @@ let ranking = [
     { usuario: "Alana", pontos: 30 },
     { usuario: "Dev_Misterioso", pontos: 10 }
 ];
+//------------------------------------------------------------
 
 //--- VARIÁVEIS DE CONTROLE ---
 let nomeJogador = "";

@@ -114,6 +114,7 @@ span {
     flex-direction: column;    
     justify-content: center;
     gap: 12px;
+    width: 90%;
     margin-top: 20px;    
 }
 
@@ -124,7 +125,6 @@ span {
     border: 2px solid var(--lilas);
     padding: 10px;
     border-radius: 40px;
-    min-width: 450px;
     white-space: normal;
     word-break: break-word;  
     transition: all 0.2s ease;  
