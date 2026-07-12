@@ -121,13 +121,16 @@ function finalizarJogo() {
     //adiciona o jogador atual ao ranking
     ranking.push(novoResultado);
 
-    //simula o order by
+    //(order by desc)
     ranking.sort((a, b) => b.pontos - a.pontos);
+
+    //limita para os melhores 5 colocados (limit 5)
+    ranking = ranking.slice(0, 5);
 
     atualizarTabelaPlacar();
 }
 
-//---FUNÇÃO PARA ATUALIZAR A TABELA---
+//---FUNÇÃO PARA ATUALIZAR A TABELA DE PLACAR---
 function atualizarTabelaPlacar() {
     corpoRanking.innerHTML = "";
 
